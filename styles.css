@@ -1,0 +1,42 @@
+body {
+  background: #4f95ffcb;
+}
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  border: 5px solid rgb(248, 0, 74);
+  max-width: 300px;
+  margin: auto;
+  background-color: bisque;
+}
+h2 {
+  color: blueviolet;
+}
+.productos {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.producto {
+  background-color: blanchedalmond;
+  border: 12px solid rgb(248, 0, 74);
+  padding: 20px;
+  border-radius: 60px;
+  max-width: 350px;
+  margin: 20px 20px 20px 20px;
+}
+.definicion {
+  font-size: large;
+}
+nav {
+  font-size: large;
+  display: flex;
+  justify-content: flex-end;
+}
